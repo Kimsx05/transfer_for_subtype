@@ -1,0 +1,5 @@
+"lineage","cells","resolutions","selected_version","palette","alpha","pt.size","raster","dpi","coordinates","cluster_fields"
+"Myeloid",40393,"0.2;0.4;0.6;0.8","C","fixed_high_contrast_discrete",1,0.6,FALSE,300,"existing umap","subtype_res_0.2;subtype_res_0.4;subtype_res_0.6;subtype_res_0.8"
+"Fibroblast",27615,"0.2;0.4;0.6;0.8","C","fixed_high_contrast_discrete",1,0.6,FALSE,300,"existing umap","subtype_res_0.2;subtype_res_0.4;subtype_res_0.6;subtype_res_0.8"
+"Endothelial",17039,"0.2;0.4;0.6;0.8","C","fixed_high_contrast_discrete",1,0.6,FALSE,300,"existing umap","subtype_res_0.2;subtype_res_0.4;subtype_res_0.6;subtype_res_0.8"
+"TNK",124746,"0.2;0.4;0.6;0.8","C","fixed_high_contrast_discrete",1,0.6,FALSE,300,"existing umap","subtype_res_0.2;subtype_res_0.4;subtype_res_0.6;subtype_res_0.8"

@@ -1,0 +1,4 @@
+"version","lineage","resolution","palette","alpha","pt.size","raster","dpi","coordinates","cluster_field"
+"A","Endothelial",0.2,"fixed_high_contrast_discrete",1,0.4,FALSE,300,"existing umap","subtype_res_0.2"
+"B","Endothelial",0.2,"fixed_high_contrast_discrete",1,0.5,FALSE,300,"existing umap","subtype_res_0.2"
+"C","Endothelial",0.2,"fixed_high_contrast_discrete",1,0.6,FALSE,300,"existing umap","subtype_res_0.2"
