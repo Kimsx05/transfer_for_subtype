@@ -1,0 +1,5 @@
+"lineage","cells","PCA_dims","Harmony_variable","clustering_dims","ncluster_0.2","ncluster_0.4","ncluster_0.6","ncluster_0.8"
+"Myeloid",40393,50,"orig.ident",24,10,15,17,22
+"Fibroblast",27615,50,"orig.ident",24,13,14,19,19
+"Endothelial",17039,50,"orig.ident",23,10,13,18,20
+"TNK",124746,50,"orig.ident",24,7,10,12,16

@@ -1,0 +1,5 @@
+"resolution","n_clusters","min_cluster_n","median_cluster_n","max_cluster_n"
+0.2,13,207,1019,10681
+0.4,14,207,1154,5973
+0.6,19,207,926,5226
+0.8,19,207,1021,4179
