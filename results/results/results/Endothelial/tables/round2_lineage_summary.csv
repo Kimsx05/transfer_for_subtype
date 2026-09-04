@@ -1,0 +1,2 @@
+"lineage","round1_cells","round1_removed","round2_cells","Harmony_variable","PCA_dims","clustering_dims","ncluster_res0.2","ncluster_res0.4","ncluster_res0.6","ncluster_res0.8","smallest_cluster_res0.2","smallest_cluster_res0.4","smallest_cluster_res0.6","smallest_cluster_res0.8","cell_accounting_ok"
+"Endothelial",17039,1743,15296,"orig.ident",50,21,9,11,15,18,138,119,119,118,TRUE

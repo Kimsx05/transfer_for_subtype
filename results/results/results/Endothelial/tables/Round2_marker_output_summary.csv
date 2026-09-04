@@ -1,0 +1,5 @@
+"lineage","resolution","clusters","full_rows","top50_raw_rows","top50_friendly_rows","top50_noncycle_rows"
+"Endothelial",0.2,9,22643,450,450,450
+"Endothelial",0.4,11,24575,550,550,550
+"Endothelial",0.6,15,29520,750,750,750
+"Endothelial",0.8,18,34875,900,900,900

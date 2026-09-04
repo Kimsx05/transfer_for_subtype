@@ -1,0 +1,5 @@
+"lineage","resolution","clusters","full_rows","top50_raw_rows","top50_friendly_rows","top50_noncycle_rows"
+"Fibroblast",0.2,10,25262,500,500,500
+"Fibroblast",0.4,13,29602,650,650,650
+"Fibroblast",0.6,16,36208,800,800,800
+"Fibroblast",0.8,17,40406,850,850,850

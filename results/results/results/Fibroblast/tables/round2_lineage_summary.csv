@@ -1,0 +1,2 @@
+"lineage","round1_cells","round1_removed","round2_cells","Harmony_variable","PCA_dims","clustering_dims","ncluster_res0.2","ncluster_res0.4","ncluster_res0.6","ncluster_res0.8","smallest_cluster_res0.2","smallest_cluster_res0.4","smallest_cluster_res0.6","smallest_cluster_res0.8","cell_accounting_ok"
+"Fibroblast",27615,2743,24872,"orig.ident",50,22,10,13,16,17,151,98,98,100,TRUE

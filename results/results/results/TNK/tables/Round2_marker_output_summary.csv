@@ -1,0 +1,5 @@
+"lineage","resolution","clusters","full_rows","top50_raw_rows","top50_friendly_rows","top50_noncycle_rows"
+"TNK",0.2,8,15917,400,400,400
+"TNK",0.4,10,19195,500,500,500
+"TNK",0.6,12,23180,600,600,600
+"TNK",0.8,16,28195,800,800,800

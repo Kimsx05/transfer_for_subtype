@@ -1,0 +1,2 @@
+"lineage","round1_cells","round1_removed","round2_cells","Harmony_variable","PCA_dims","clustering_dims","ncluster_res0.2","ncluster_res0.4","ncluster_res0.6","ncluster_res0.8","smallest_cluster_res0.2","smallest_cluster_res0.4","smallest_cluster_res0.6","smallest_cluster_res0.8","cell_accounting_ok"
+"Myeloid",40393,4457,35936,"orig.ident",50,24,12,14,17,18,149,149,205,205,TRUE

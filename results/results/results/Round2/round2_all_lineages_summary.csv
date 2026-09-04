@@ -1,0 +1,5 @@
+"lineage","round1_cells","round1_removed","round2_cells","Harmony_variable","PCA_dims","Harmony_dims","Neighbors_dims","UMAP_dims","clustering_dims","ncluster_res0.2","ncluster_res0.4","ncluster_res0.6","ncluster_res0.8","smallest_cluster_res0.2","smallest_cluster_res0.4","smallest_cluster_res0.6","smallest_cluster_res0.8","removed_clusters_all_absent","unexpected_cell_loss","cell_accounting_ok"
+"Myeloid",40393,4457,35936,"orig.ident",50,24,24,24,24,12,14,17,18,149,149,205,205,TRUE,0,TRUE
+"Fibroblast",27615,2743,24872,"orig.ident",50,22,22,22,22,10,13,16,17,151,98,98,100,TRUE,0,TRUE
+"Endothelial",17039,1743,15296,"orig.ident",50,21,21,21,21,9,11,15,18,138,119,119,118,TRUE,0,TRUE
+"TNK",124746,0,124746,"orig.ident",50,24,24,24,24,9,11,13,17,1,1,1,1,TRUE,0,TRUE

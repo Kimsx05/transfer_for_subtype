@@ -1,0 +1,5 @@
+"lineage","round1_resolution","removed_clusters","n_before","n_removed","fraction_removed","n_retained","identity_check"
+"Myeloid","subtype_res_0.4","5;7;14",40393,4457,0.110340900651103,35936,TRUE
+"Fibroblast","subtype_res_0.8","8;9;12",27615,2743,0.0993300742350172,24872,TRUE
+"Endothelial","subtype_res_0.8","9;11;14",17039,1743,0.10229473560655,15296,TRUE
+"TNK","subtype_res_0.6","NONE",124746,0,0,124746,TRUE
