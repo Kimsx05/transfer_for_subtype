@@ -1,0 +1,6 @@
+"object","n_cells","object_file","reductions_ok","resolution_fields_ok","harmony_orig_ident","no_final_annotation_fields","all_marker_files","all_plot_files"
+"Myeloid",35936,"/home/data/t070721/codex_workspace/Bladder Metabolism/subtype/round3/02_reclustering/Myeloid/Myeloid_round3_reclustered_preannotation.qs2",TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+"Fibroblast",19520,"/home/data/t070721/codex_workspace/Bladder Metabolism/subtype/round3/02_reclustering/Fibroblast/Fibroblast_round3_reclustered_preannotation.qs2",TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+"Endothelial",15296,"/home/data/t070721/codex_workspace/Bladder Metabolism/subtype/round3/02_reclustering/Endothelial/Endothelial_round3_reclustered_preannotation.qs2",TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+"TNK",124746,"/home/data/t070721/codex_workspace/Bladder Metabolism/subtype/round3/02_reclustering/TNK/TNK_round3_reclustered_preannotation.qs2",TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+"Mural",5145,"/home/data/t070721/codex_workspace/Bladder Metabolism/subtype/round3/02_reclustering/Mural/Mural_round3_reclustered_preannotation.qs2",TRUE,TRUE,TRUE,TRUE,TRUE,TRUE

@@ -1,0 +1,159 @@
+START Round3 TNK; Harmony variable = orig.ident; resolutions = 0.4/0.8/1.2
+JoinLayers not required; RNA layers before normalization = counts,data,scale.data
+Normalizing layer: counts
+Performing log-normalization
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Finding variable features for layer counts
+Calculating gene variances
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Calculating feature variances of standardized and clipped values
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Centering and scaling data matrix
+  |                                                                              |                                                                      |   0%  |                                                                              |=======================                                               |  33%  |                                                                              |===============================================                       |  67%  |                                                                              |======================================================================| 100%
+R3PC_ 1 
+Positive:  H3F3B, H3F3A, FAM49B, RAPGEF6, FAM172A, H2AFZ, CAST, KIAA1109, AP001011.1, NME2 
+	   FAM214A, AC079793.1, AL136456.1, FOXP1, AC007384.1, H1FX, AC016831.7, WDR61, PRKY, MARCH3 
+	   AC009313.1, LINC01004, HIST1H1C, HIST1H4C, HIST1H2AC, AC104365.1, AF165147.1, IPCEF1, UMAD1, LRRC8C 
+Negative:  MT-CO2, MT-CO3, MT-ATP6, MT-RNR2, RPL13A, MT-RNR1, H3-3B, RPL31, RPS20, RPL7 
+	   RPS26, LINC-PINT, RPS17, MT-ND4L, RPS6KA3, TALAM1, RPS6KA5, MT-ATP8, ATOSA, ENSG00000266049 
+	   H1-10, MIR23AHG, ENSG00000310376, ENSG00000283674, EEIG2, ENSG00000232855, ENSG00000310385, CDC42EP3-AS1, H1-2, SKIC8 
+R3PC_ 2 
+Positive:  LDLRAD4, TNFRSF4, TNFRSF18, CTLA4, TBC1D4, IL2RA, FOXP3, SNX9, ENSG00000227240, F5 
+	   IL1R1, PHACTR2, GK, MAST4, BATF, LINC02099, THADA, RTKN2, DUSP16, LINC02694 
+	   IKZF2, PELI1, ICA1, TSHZ2, LINC01943, TSPAN5, ENTPD1, RBPJ, IL1R2, INPP5F 
+Negative:  NKG7, GZMK, AOAH, ANXA1, GZMA, CCL4, KLRK1, GZMH, H3F3B, AUTS2 
+	   TYROBP, C1orf21, KLF2, CCL4L2, XCL2, P2RY8, DUSP2, TRDC, GNLY, H3F3A 
+	   PLCB1, KLRD1, KLRF1, PLCG2, NME2, SLC35F1, CD69, FCGR3A, AC020916.1, PLAC8 
+R3PC_ 3 
+Positive:  FTH1, LTB, IL7R, GPR183, FAAH2, PLCL1, RPS17, TNFRSF4, LMNA, IL2RA 
+	   FOXP3, RPS20, RTKN2, CCR7, BIRC3, RPL7, RPL31, LINC01619, SELL, ICOS 
+	   RPL13A, IL1R1, SAT1, CCR6, CD4, FANK1, IL1R2, JUNB, FILIP1L, LEF1 
+Negative:  GZMB, NKG7, KLRD1, ATP8B4, GZMA, CXCL13, RIN3, ITGAE, HAVCR2, FUT8 
+	   SRGAP3, GOLIM4, MCTP2, HOPX, CCL4, TOX, LINC02446, PELO-AS1, KIR2DL4, ITGA1 
+	   DAPK2, GZMH, LAG3, LINC02937, CCL3, GFOD1, GNLY, PLPP1, THEMIS, CCL3-AS1 
+R3PC_ 4 
+Positive:  IGHG3, IGKC, IGHG1, IGLC3, IGLC2, ENTPD1, ENSG00000289901, ADIRF, IGKV3-20, ITGAE 
+	   IGLC1, CLNK, TOX, IGLV3-25, CD38, HAVCR2, GLCCI1, FUT8, ENTPD1-AS1, RPS17 
+	   TRBV4-1, TRAV38-2DV8, RPS26, MT-ND6, HLA-DRB5, FAM172A, JCHAIN, S100A2, LAG3, ITGA1 
+Negative:  HSPA1A, HSPA1B, HSPD1, HSPH1, JUN, PPP1R15A, DUSP1, FOS, BAG3, DNAJA4 
+	   HSPA6, ZFAND2A, DNAJB4, NR4A1, JUNB, GADD45B, ATF3, RGS2, ELL2, RHOB 
+	   KLF2, BTG2, CD69, CRY1, NEU1, ABHD3, SERPINH1, DENND4A, ANXA1, IER5 
+R3PC_ 5 
+Positive:  PDE3B, ANK3, CRYBG1, FKBP5, MGAT5, RBMS1, ELMO1, IL7R, STAT4, RORA 
+	   THEMIS, CDC14A, CAMK1D, BACH2, PTPN13, PDE4D, SERINC5, ABLIM1, HERC1, NR3C2 
+	   SIPA1L1, RUNX2, ADAM19, RETREG1, TRERF1, LINC01934, NELL2, LINC-PINT, HIPK2, PLCB1 
+Negative:  HSPA1A, HSPA1B, TNFRSF9, ISG15, TNFRSF18, FOXP3, DUSP1, ID3, PMAIP1, LAIR2 
+	   JUN, RHOB, ZFAND2A, IL1R2, TNFRSF4, LINC01943, DUSP2, NKG7, IFNG, FABP5 
+	   GADD45A, RGS2, DNAJB4, CCL4, LGALS1, CCL3, LINC02099, SERPINH1, IL2RA, DUSP4 
+PCA dimensions = 50; selected dims = 1:24; cells = 124746
+Transposing data matrix
+Using automatic lambda estimation
+Thetas: 2
+Initializing state using k-means centroids initialization
+Initializing centroids
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 1/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 2/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 3/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 4/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 5/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony converged after 5 iterations
+Computing nearest neighbor graph
+Computing SNN
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 124746
+Number of edges: 3333126
+
+Running Louvain algorithm...
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Maximum modularity in 10 random starts: 0.9142
+Number of communities: 11
+Elapsed time: 51 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 124746
+Number of edges: 3333126
+
+Running Louvain algorithm...
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Maximum modularity in 10 random starts: 0.8787
+Number of communities: 17
+Elapsed time: 53 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 124746
+Number of edges: 3333126
+
+Running Louvain algorithm...
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Maximum modularity in 10 random starts: 0.8512
+Number of communities: 19
+Elapsed time: 54 seconds
+Warning: The default method for RunUMAP has changed from calling Python UMAP via reticulate to the R-native UWOT using the cosine metric
+To use Python UMAP via reticulate, set umap.method to 'umap-learn' and metric to 'correlation'
+This message will be shown once per session
+11:15:45 UMAP embedding parameters a = 0.9922 b = 1.112
+11:15:45 Read 124746 rows and found 24 numeric columns
+11:15:45 Using Annoy for neighbor search, n_neighbors = 30
+11:15:45 Building Annoy index with metric = cosine, n_trees = 50
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+11:15:58 Writing NN index file to temp file /tmp/subtype_runtime/RtmpFF99XN/file1a5d1e362d3e
+11:15:58 Searching Annoy index using 1 thread, search_k = 3000
+11:17:01 Annoy recall = 100%
+11:17:02 Commencing smooth kNN distance calibration using 1 thread with target n_neighbors = 30
+11:17:06 Initializing from normalized Laplacian + noise (using RSpectra)
+11:17:14 Commencing optimization for 200 epochs, with 5594328 positive edges
+11:17:14 Using rng type: pcg
+Using method 'umap'
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+11:18:06 Optimization finished
+END Round3 TNK; NO LOCAL RESCUE; NO ANNOTATION

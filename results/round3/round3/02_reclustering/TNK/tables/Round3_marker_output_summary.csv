@@ -1,0 +1,4 @@
+"object","resolution","object_clusters","marker_clusters","full_rows","top100_raw_rows","top100_friendly_rows","top100_noncycle_rows"
+"TNK",0.4,11,10,19195,1000,1000,1000
+"TNK",0.8,17,16,28195,1600,1600,1600
+"TNK",1.2,19,18,29576,1800,1800,1800
