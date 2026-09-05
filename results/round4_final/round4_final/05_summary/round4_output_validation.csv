@@ -1,0 +1,4 @@
+"lineage","n_cells","reductions_ok","resolution_fields_ok","no_forbidden_resolutions","harmony_ok","no_final_annotation","marker_files_ok","plot_files_ok"
+"Fibroblast",19087,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+"Mural",5578,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+"TNK",114845,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE

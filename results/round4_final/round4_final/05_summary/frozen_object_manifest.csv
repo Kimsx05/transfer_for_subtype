@@ -1,0 +1,4 @@
+"object","object_path","status"
+"Myeloid","/home/data/t070721/codex_workspace/Bladder Metabolism/subtype/round3/02_reclustering/Myeloid/Myeloid_round3_reclustered_preannotation.qs2","FROZEN_FROM_ROUND3"
+"Endothelial","/home/data/t070721/codex_workspace/Bladder Metabolism/subtype/round3/02_reclustering/Endothelial/Endothelial_round3_reclustered_preannotation.qs2","FROZEN_FROM_ROUND3"
+"Schwann","/home/data/t070721/codex_workspace/Bladder Metabolism/subtype/round3/01_extraction/Schwann/Schwann_round3_extracted.qs2","FROZEN_FROM_ROUND3"

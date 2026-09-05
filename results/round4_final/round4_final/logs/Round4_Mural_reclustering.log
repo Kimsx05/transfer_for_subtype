@@ -1,0 +1,183 @@
+START Round4_FINAL Mural cells=5578 Harmony=orig.ident resolutions=0.4/1.2
+JoinLayers on Round4 input copy only; layers=counts.1,counts.1.2,counts.2.2,data.1,scale.data.1,data.1.2,scale.data.1.2,data.2.2,scale.data.2.2
+Normalizing layer: counts
+Performing log-normalization
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Finding variable features for layer counts
+Calculating gene variances
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Calculating feature variances of standardized and clipped values
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Warning messages:
+1: In simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :
+  pseudoinverse used at -3.4454
+2: In simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :
+  neighborhood radius 0.30103
+3: In simpleLoess(y, x, w, span, degree = degree, parametric = parametric,  :
+  reciprocal condition number  9.9588e-17
+Centering and scaling data matrix
+  |                                                                              |                                                                      |   0%  |                                                                              |=======================                                               |  33%  |                                                                              |===============================================                       |  67%  |                                                                              |======================================================================| 100%
+Warning: Different features in new layer data than already exists for scale.data
+R4PC_ 1 
+Positive:  MYH11, SORBS2, ENSG00000279622, ATP1B3, ZNF331, ADAMTS9, PLN, SPARCL1, ADRA2A, ELL2 
+	   SEMA4A, CREM, ADAMTS4, RGS6, RERGL, PIP5K1B, PITPNC1, LINC01619, MT1M, MT-RNR1 
+	   IL6, MT1X, HOMER1, PDK4, RBKS, MT1A, CCNH, NTRK3, MT2A, ESYT2 
+Negative:  COL1A2, COL3A1, COL6A3, COL1A1, LUM, SPARC, MMP2, COL5A2, VCAN, DCN 
+	   HLA-B, CTSC, PPIB, PDPN, SPON2, TMEM176B, COL5A1, CTSK, COL8A1, RBP1 
+	   THY1, FBLN1, NR2F1, TMSB10, PDGFRA, CYGB, PLAT, NME2, CFH, CXCL14 
+R4PC_ 2 
+Positive:  MFAP4, PDPN, CFD, MMP2, RARRES2, LUM, CLMP, TRPA1, PDGFRA, FBLN1 
+	   TGM2, HSD17B2, TMEM176B, COL8A1, CXCL14, TSHZ2, PDGFD, FBLN5, DCN, BNC2 
+	   SPON1, PALLD, FENDRR, MIR100HG, TMEM176A, PLXDC2, CLU, SOD2, THSD4, SORBS1 
+Negative:  NDUFA4L2, CCDC102B, RGS5, GUCY1A2, HIGD1B, THY1, PLXDC1, COX4I2, ANGPT2, ARHGDIB 
+	   ADGRF5, IFI27, EGFLAM, COL4A1, UACA, MIR4435-2HG, CYTOR, LURAP1L, ITGA1, ARHGAP15 
+	   EGFL6, CHN1, TPPP3, FJX1, FAM13C, TESC, SPARC, BGN, ADAP2, TNS3 
+R4PC_ 3 
+Positive:  MT-RNR1, RPS4Y1, NICOL1, NALF1, WARS1, ENSG00000232855, EPIST, PALM2AKAP2, CYGB, TMSB10 
+	   IGHA1, MT-TE, HTR1F, CXCL14, PAMR1, BMP5, RPL29P11, SLC1A2-AS2, ENSG00000260658, ENSG00000271774 
+	   ENSG00000288539, SPON2, MEST, PLAT, TAFA2, HSD17B2, LUM, LCN15, KHDRBS2, SLC14A1 
+Negative:  H3F3B, H3F3A, PALM2-AKAP2, LINC01578, ATP5MD, H2AFJ, MRVI1, H2AFZ, AC020916.1, NME2 
+	   ATP5MPL, MARCH6, ST5, H2AFV, EIF4A1, SLC25A6, AC083870.1, PFDN5, H1FX, MARCH7 
+	   RNASEK, SARS, C9orf16, CASC4, CAST, ADAMTSL4-AS1, EEF1G, CD99, HIST1H4C, TTC37 
+R4PC_ 4 
+Positive:  CARMN, MT-ATP8, ENSG00000289901, HPSE2, MT-ND6, SLC8A1, PRUNE2, CHRM3, PCDH7, FOXP2 
+	   CAST, MYH11, DTNA, FAM172A, MUSTN1, CHRM2, MT-ND4L, ACTG2, ADARB1, KCNMA1 
+	   ADAMTS6, DBNDD2, GALNT17, CNTN1, PDE4D, FN1, GPX1, NCAM1, PCP4, ITGA1 
+Negative:  NFKBIA, ADAMTS4, ICAM1, GEM, PITPNC1, CXCL2, IER3, TNFAIP3, ATP1B3, CREM 
+	   ADAMTS9, IL6, NFKB1, GJA4, OPA3, NCOA7, MT2A, SOD2, HSPD1, DUSP1 
+	   PTPN1, DNAJB1, ENSG00000286533, RGS16, APOLD1, NFKBIZ, CYCS, ZNF331, CLIP2, SOCS3 
+R4PC_ 5 
+Positive:  NEAT1, PDE4D, XIST, PRUNE2, CHRM3, PCDH7, EXT1, SAMD4A, FOXP2, HPSE2 
+	   NFKB1, PALM2AKAP2, GLIS3, PRKD1, PDZRN3, NLGN1, SORBS1, LMCD1, SVIL, BTBD9 
+	   NEGR1, ST6GALNAC5, AGAP1, CNTN1, SEMA3A, COL4A1, BNC2, CHRM2, FNIP2, SLMAP 
+Negative:  CRIP1, PFDN5, TSC22D3, NME2, EEF1G, JUND, H3F3A, RNASEK, KLF2, SLC25A6 
+	   WDR83OS, NUPR1, ATP5MD, DNAJB1, EIF4A1, ATP6V0C, HSPA1A, C9orf16, TOMM6, HSPA1B 
+	   RERGL, H3F3B, MAFB, ID1, HLA-C, MRPS24, CD99, ATP5MPL, ID3, PSMA2 
+Transposing data matrix
+Using automatic lambda estimation
+Thetas: 2
+Initializing state using k-means centroids initialization
+Initializing centroids
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+****************1128exists, retrying for cluster 31 2.1293
+**********************************|
+Harmony 1/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 2/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 3/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 4/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 5/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 6/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 7/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 8/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 9/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony converged after 9 iterations
+Computing nearest neighbor graph
+Computing SNN
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 5578
+Number of edges: 249804
+
+Running Louvain algorithm...
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Maximum modularity in 10 random starts: 0.9007
+Number of communities: 10
+Elapsed time: 0 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 5578
+Number of edges: 249804
+
+Running Louvain algorithm...
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Maximum modularity in 10 random starts: 0.8038
+Number of communities: 13
+Elapsed time: 0 seconds
+Warning: The default method for RunUMAP has changed from calling Python UMAP via reticulate to the R-native UWOT using the cosine metric
+To use Python UMAP via reticulate, set umap.method to 'umap-learn' and metric to 'correlation'
+This message will be shown once per session
+03:41:48 UMAP embedding parameters a = 0.9922 b = 1.112
+03:41:48 Read 5578 rows and found 23 numeric columns
+03:41:48 Using Annoy for neighbor search, n_neighbors = 30
+03:41:48 Building Annoy index with metric = cosine, n_trees = 50
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+03:41:49 Writing NN index file to temp file /tmp/subtype_runtime/RtmpQdHMfK/file4942ed50027
+03:41:49 Searching Annoy index using 1 thread, search_k = 3000
+03:41:50 Annoy recall = 100%
+03:41:51 Commencing smooth kNN distance calibration using 1 thread with target n_neighbors = 30
+03:41:51 Initializing from normalized Laplacian + noise (using RSpectra)
+03:41:52 Commencing optimization for 500 epochs, with 240552 positive edges
+03:41:52 Using rng type: pcg
+Using method 'umap'
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+03:41:57 Optimization finished
+END Round4_FINAL Mural; NO AUTOMATIC ANNOTATION; ONLY 0.4/1.2

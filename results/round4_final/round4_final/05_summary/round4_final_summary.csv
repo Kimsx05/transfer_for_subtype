@@ -1,0 +1,7 @@
+"lineage","round3_n_cells","n_moved_in","n_moved_out","n_excluded","round4_n_cells","Harmony_variable","PCA_dims","neighbor_dims","n_clusters_res0.4","n_clusters_res1.2","smallest_cluster_res0.4","smallest_cluster_res1.2","status"
+"Fibroblast",19520,471,904,0,19087,"orig.ident",50,23,10,19,213,122,"ROUND4_RECLUSTERED_PREANNOTATION"
+"Mural",5145,904,471,0,5578,"orig.ident",50,23,10,13,53,53,"ROUND4_RECLUSTERED_PREANNOTATION"
+"TNK",124746,0,0,9901,114845,"orig.ident",50,24,11,17,3483,1262,"ROUND4_RECLUSTERED_PREANNOTATION"
+"Myeloid",35936,0,0,0,35936,NA,NA,NA,NA,NA,NA,NA,"FROZEN_FROM_ROUND3"
+"Endothelial",15296,0,0,0,15296,NA,NA,NA,NA,NA,NA,NA,"FROZEN_FROM_ROUND3"
+"Schwann",207,0,0,0,207,NA,NA,NA,NA,NA,NA,NA,"FROZEN_FROM_ROUND3"

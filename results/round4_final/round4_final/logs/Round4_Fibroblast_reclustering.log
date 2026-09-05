@@ -1,0 +1,155 @@
+START Round4_FINAL Fibroblast cells=19087 Harmony=orig.ident resolutions=0.4/1.2
+JoinLayers on Round4 input copy only; layers=counts.1,counts.1.2,counts.2.2,data.1,scale.data.1,data.1.2,scale.data.1.2,data.2.2,scale.data.2.2
+Normalizing layer: counts
+Performing log-normalization
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Finding variable features for layer counts
+Calculating gene variances
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Calculating feature variances of standardized and clipped values
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Centering and scaling data matrix
+  |                                                                              |                                                                      |   0%  |                                                                              |=======================                                               |  33%  |                                                                              |===============================================                       |  67%  |                                                                              |======================================================================| 100%
+Warning: Different features in new layer data than already exists for scale.data
+R4PC_ 1 
+Positive:  IGKC, MYLK, ITGA1, TAGLN, PAG1, ACTA2, PPP1R14A, TPM2, EDNRA, WFDC1 
+	   RGS5, CCDC102B, TGFBI, CHN1, NOTCH3, SGIP1, FRY, MYL9, MCAM, TNS3 
+	   IGFBP2, LOXL2, MICAL2, KRT18, NDUFA4L2, INPP4B, IGLC2, TBX2, SYNPO2, ADGRF5 
+Negative:  ABI3BP, MFAP5, PCOLCE2, PI16, IGFBP6, SEMA3C, PTGIS, CLU, MARCHF3, ITM2A 
+	   CILP, PLA2G2A, MEDAG, HAS1, SFRP2, FBN1, ACKR3, CLEC3B, SDK1, ENSG00000310376 
+	   TGFBR3, HTRA3, CTSL, UGDH, TNFAIP6, HAS2, C17orf58, SLC4A7, BDKRB1, ADGRD1 
+R4PC_ 2 
+Positive:  NDUFA4L2, RGS5, PPP1R14A, NOTCH3, TINAGL1, ACTA2, IGFBP7, ADIRF, MYL9, MCAM 
+	   COX4I2, ESAM, HIGD1B, GJA4, ADGRF5, CRIP2, ARHGAP15, ARHGDIB, HOPX, TAGLN 
+	   HTR1F, GUCY1A2, LGI4, FRZB, ANGPT2, TPPP3, PDGFA, INPP4B, PTP4A3, CAV1 
+Negative:  AC020916.1, RABGEF1, H3F3B, ADAMTSL4-AS1, LINC01578, KAZN, MARCH6, FAM155A, AC016831.7, PALM2-AKAP2 
+	   H3F3A, AL078604.4, AF165147.1, UHRF1BP1L, CLMP, CAST, PRICKLE2, AC011511.2, AC083837.1, HSPH1 
+	   AF117829.1, SLC19A2, FAM172A, AC022217.3, AP000331.1, ELL2, PDE3B, CASC4, PTGS2, ELMSAN1 
+R4PC_ 3 
+Positive:  NALF1, ENSG00000286533, NRG1, STC1, MILR1, NFE2L3, HSD17B2, ENSG00000260658, LINC01082, SEMA4A 
+	   BMP5, H2AZ1, ENSG00000249240, LINC01619, GPR84-AS1, TRPA1, ENSG00000310385, IGHA1, ENSG00000232855, LINGO3 
+	   AKR1B1, AREG, SLC14A1, KCNQ1OT1, FAM135B, MITA1, TSPAN13, LRRC23, AFF3, A2M 
+Negative:  FN1, FBN1, H3F3B, H3F3A, EBF1, THY1, CD99, PALM2-AKAP2, NME2, LINC01578 
+	   ST5, SULF1, UACA, CRIP1, CASC4, PTGIS, ATP5MD, MARCH6, H2AFJ, MFAP5 
+	   ATP5MPL, CYTOR, SLC25A6, C20orf194, MRVI1, FAM126A, RASAL2, ATP6V0C, CACNA1C, SEMA3C 
+R4PC_ 4 
+Positive:  GLIS3, ADAMTS4, PDE3A, ELL2, ACSL4, ATP1B3, NFKB1, NR4A3, PITPNC1, ELOVL5 
+	   CXCL2, NABP1, FGF2, HES4, RASAL2, ADAMTS9, COL4A1, SLC7A2, MT2A, IL6 
+	   TNFAIP6, LIF, ICAM1, CACNB2, KLHL29, CCL2, SGIP1, SLC4A7, PTPN1, TINAGL1 
+Negative:  COL1A2, COL1A1, TXNIP, NUPR1, CD99, NME2, MMP23B, WDR83OS, COL3A1, SLC25A6 
+	   C4orf48, GAS1, MMP11, EEF1G, POSTN, ATP6V0C, SLC14A1, ID1, RNASEK, COL5A1 
+	   C9orf16, SPARC, COL11A1, ATP5MPL, ATP5MD, CTHRC1, COL10A1, MXRA5, CXCL14, PFDN5 
+R4PC_ 5 
+Positive:  TXNIP, ZBTB16, KLF2, EBF1, SEMA4A, SLIT2, POLG2, ADGRB3, PCSK5, PLEKHG2 
+	   PDK4, LINC00910, ZC3HAV1, PELI2, TSC22D3, TULP2, NFATC2, ID1, TACC1, GPRC5D-AS1 
+	   REV3L, LINC01619, PDZRN4, DCLK1, MSR1, ADIRF, ZNF331, ADAMTSL4-AS1, MILR1, ARHGAP6 
+Negative:  WNT2, PLAU, TMEM158, INHBA, FAP, IL32, CTHRC1, TIMP1, POSTN, IL1R1 
+	   BGN, CCL2, DIO2, CYTOR, COL8A1, CTSL, SPARC, MMP11, WNT5A, ARL4C 
+	   ACSL4, THY1, CTSC, CCDC71L, CXCL6, HMGA1, LMCD1, GNPNAT1, TPM2, TNFAIP6 
+Transposing data matrix
+Using automatic lambda estimation
+Thetas: 2
+Initializing state using k-means centroids initialization
+Initializing centroids
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+4865exists, retrying for cluster 99 2.79141
+Harmony 1/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 2/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 3/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 4/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 5/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 6/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony converged after 6 iterations
+Computing nearest neighbor graph
+Computing SNN
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 19087
+Number of edges: 732559
+
+Running Louvain algorithm...
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Maximum modularity in 10 random starts: 0.9014
+Number of communities: 10
+Elapsed time: 3 seconds
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 19087
+Number of edges: 732559
+
+Running Louvain algorithm...
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Maximum modularity in 10 random starts: 0.8319
+Number of communities: 19
+Elapsed time: 3 seconds
+Warning: The default method for RunUMAP has changed from calling Python UMAP via reticulate to the R-native UWOT using the cosine metric
+To use Python UMAP via reticulate, set umap.method to 'umap-learn' and metric to 'correlation'
+This message will be shown once per session
+03:44:18 UMAP embedding parameters a = 0.9922 b = 1.112
+03:44:18 Read 19087 rows and found 23 numeric columns
+03:44:18 Using Annoy for neighbor search, n_neighbors = 30
+03:44:18 Building Annoy index with metric = cosine, n_trees = 50
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+03:44:20 Writing NN index file to temp file /tmp/subtype_runtime/RtmpgJlqlg/file50c65efeda1
+03:44:20 Searching Annoy index using 1 thread, search_k = 3000
+03:44:26 Annoy recall = 100%
+03:44:27 Commencing smooth kNN distance calibration using 1 thread with target n_neighbors = 30
+03:44:28 Initializing from normalized Laplacian + noise (using RSpectra)
+03:44:28 Commencing optimization for 200 epochs, with 823708 positive edges
+03:44:28 Using rng type: pcg
+Using method 'umap'
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+03:44:36 Optimization finished
+END Round4_FINAL Fibroblast; NO AUTOMATIC ANNOTATION; ONLY 0.4/1.2

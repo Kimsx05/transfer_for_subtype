@@ -1,0 +1,39 @@
+#!/usr/bin/env Rscript
+suppressPackageStartupMessages({library(Seurat);library(SeuratObject);library(ggplot2);library(patchwork)})
+stopifnot(requireNamespace("qs2",quietly=TRUE),requireNamespace("harmony",quietly=TRUE),requireNamespace("ggrepel",quietly=TRUE))
+if(requireNamespace("future",quietly=TRUE))future::plan("sequential");options(future.globals.maxSize=200*1024^3)
+root<-normalizePath(file.path(getwd(),"subtype"),mustWork=TRUE);r4<-file.path(root,"round4_final");source(file.path(r4,"code","00_round4_config.R"))
+lineage<-Sys.getenv("ROUND4_OBJECT",unset="");if(!lineage%in%c("Fibroblast","Mural","TNK"))stop("Set ROUND4_OBJECT")
+set.seed(round4_config$seed);out<-file.path(r4,"02_reclustering",lineage);tab<-file.path(out,"tables");fig<-file.path(out,"figures");dir.create(tab,recursive=TRUE,showWarnings=FALSE);dir.create(fig,recursive=TRUE,showWarnings=FALSE)
+con<-file(file.path(r4,"logs",paste0("Round4_",lineage,"_reclustering.log")),"wt");sink(con,type="output",split=TRUE);sink(con,type="message")
+input<-file.path(out,paste0(lineage,"_round4_input.qs2"));object<-qs2::qs_read(input);n_input<-ncol(object)
+message("START Round4_FINAL ",lineage," cells=",n_input," Harmony=orig.ident resolutions=0.4/1.2")
+if(!"orig.ident"%in%names(object[[]])||anyNA(object$orig.ident))stop("orig.ident missing")
+object@reductions<-list();object@graphs<-list();object@neighbors<-list();object@commands<-list();DefaultAssay(object)<-"RNA"
+layers<-Layers(object[["RNA"]],search=NA);counts<-grep("^counts(\\.|$)",layers,value=TRUE);if(!length(counts))stop("RNA counts absent");if(length(counts)>1L){message("JoinLayers on Round4 input copy only; layers=",paste(layers,collapse=","));object<-JoinLayers(object,assay="RNA")}else message("JoinLayers not required")
+object<-NormalizeData(object,assay="RNA",normalization.method="LogNormalize",scale.factor=10000,verbose=TRUE)
+object<-FindVariableFeatures(object,assay="RNA",selection.method="vst",nfeatures=min(round4_config$nfeatures,nrow(object)),verbose=TRUE)
+object<-ScaleData(object,assay="RNA",features=VariableFeatures(object),verbose=TRUE)
+npcs<-min(round4_config$npcs,length(VariableFeatures(object))-1L,ncol(object)-1L);if(npcs<20)stop("Insufficient PCs")
+object<-RunPCA(object,assay="RNA",features=VariableFeatures(object),npcs=npcs,reduction.name="round4_pca",reduction.key="R4PC_",seed.use=round4_config$seed,verbose=TRUE)
+sd<-Stdev(object[["round4_pca"]]);pct<-100*sd^2/sum(sd^2);cum<-cumsum(pct);cand<-which(cum>=80&pct<5);raw<-if(length(cand))cand[1]else length(sd);lower<-if(ncol(object)<2000)15L else 20L;upper<-if(ncol(object)<5000)35L else 40L;ndims<-as.integer(max(lower,min(upper,raw,length(sd))))
+pca<-data.frame(PC=seq_along(sd),stdev=sd,variance_percent=pct,cumulative_variance_percent=cum,selected_for_round4=seq_along(sd)<=ndims);write.csv(pca,file.path(tab,paste0("Round4_",lineage,"_pca_variance_audit.csv")),row.names=FALSE)
+pe<-ggplot(pca,aes(PC,variance_percent))+geom_point(size=1)+geom_line()+geom_vline(xintercept=ndims,linetype=2,colour="red")+theme_classic()+labs(title=paste0("selected dims = 1:",ndims),y="Variance (%)");ggsave(file.path(fig,paste0("Round4_",lineage,"_PCA_elbow.pdf")),pe,width=8,height=6);ggsave(file.path(fig,paste0("Round4_",lineage,"_PCA_elbow.png")),pe,width=8,height=6,dpi=300,bg="white")
+object<-harmony::RunHarmony(object,group.by.vars="orig.ident",reduction.use="round4_pca",dims.use=seq_len(ndims),reduction.save="round4_harmony",verbose=TRUE)
+object<-FindNeighbors(object,reduction="round4_harmony",dims=seq_len(ndims),graph.name=c("round4_nn","round4_snn"),verbose=TRUE)
+for(rr in round4_config$resolutions)object<-FindClusters(object,graph.name="round4_snn",resolution=rr,cluster.name=round4_res_field(rr),algorithm=1,random.seed=round4_config$seed,group.singletons=FALSE,verbose=TRUE)
+object<-RunUMAP(object,reduction="round4_harmony",dims=seq_len(ndims),reduction.name="round4_umap",reduction.key="R4UMAP_",seed.use=round4_config$seed,verbose=TRUE)
+object$round4_harmony_variable<-"orig.ident";object$round4_clustering_dims<-ndims;object$round4_annotation_status<-"preannotation"
+outfile<-file.path(out,paste0(lineage,"_round4_final_preannotation.qs2"));qs2::qs_save(object,outfile,nthreads=16)
+sizes<-do.call(rbind,lapply(round4_config$resolutions,function(rr){z<-as.data.frame(table(cluster=object[[round4_res_field(rr),drop=TRUE]]),stringsAsFactors=FALSE);names(z)[2]<-"n_cells";z$resolution<-rr;z$fraction<-z$n_cells/sum(z$n_cells);z[,c("resolution","cluster","n_cells","fraction")]}));write.csv(sizes,file.path(tab,"round4_resolution_cluster_sizes.csv"),row.names=FALSE)
+sums<-do.call(rbind,lapply(split(sizes,sizes$resolution),function(z)data.frame(resolution=unique(z$resolution),n_clusters=nrow(z),min_cluster_n=min(z$n_cells),median_cluster_n=median(z$n_cells),max_cluster_n=max(z$n_cells))));write.csv(sums,file.path(tab,"round4_resolution_summary.csv"),row.names=FALSE)
+cluster_audit<-list();k<-0L;meta<-object[[]]
+for(rr in round4_config$resolutions){field<-round4_res_field(rr);for(cl in unique(as.character(meta[[field]]))){ix<-as.character(meta[[field]])==cl;n<-sum(ix);fracmax<-function(f){if(!f%in%names(meta))return(NA_real_);max(table(meta[ix,f,drop=TRUE],useNA="ifany"))/n};nlev<-function(f){if(!f%in%names(meta))return(NA_integer_);length(unique(meta[ix,f,drop=TRUE][!is.na(meta[ix,f,drop=TRUE])]))};k<-k+1L;cluster_audit[[k]]<-data.frame(resolution=rr,cluster=cl,n_cells=n,n_orig.ident=nlev("orig.ident"),n_dataset=nlev("dataset"),n_patient=nlev("patient_uid"),largest_orig.ident_fraction=fracmax("orig.ident"),largest_dataset_fraction=fracmax("dataset"))}}
+write.csv(do.call(rbind,cluster_audit),file.path(tab,"round4_cluster_size_sample_audit.csv"),row.names=FALSE)
+make_plot<-function(field,label=FALSE){emb<-Embeddings(object[["round4_umap"]]);d<-data.frame(x=emb[,1],y=emb[,2],group=as.character(meta[rownames(emb),field]));d$group[is.na(d$group)]<-"NA";d$group<-factor(d$group,levels=sort(unique(d$group)));cols<-setNames(rep(round4_palette,length.out=nlevels(d$group)),levels(d$group));p<-ggplot(d,aes(x,y,colour=group))+geom_point(size=round4_config$point_sizes[[lineage]],alpha=1,stroke=0)+scale_colour_manual(values=cols,drop=FALSE)+labs(x="UMAP_1",y="UMAP_2",colour=field)+theme_classic(base_size=11);if(label){cent<-aggregate(cbind(x,y)~group,d,median);p<-p+ggrepel::geom_label_repel(data=cent,aes(label=group),colour="black",fill="white",fontface="bold",size=3.3,seed=round4_config$seed,max.overlaps=Inf,show.legend=FALSE)};p}
+save_pair<-function(p,stem,w=10,h=8){ggsave(paste0(stem,".pdf"),p,width=w,height=h,limitsize=FALSE);ggsave(paste0(stem,".png"),p,width=w,height=h,dpi=300,bg="white",limitsize=FALSE)}
+plots<-lapply(round4_config$resolutions,function(rr)make_plot(round4_res_field(rr),TRUE));for(i in seq_along(plots))save_pair(plots[[i]],file.path(fig,paste0("Round4_",lineage,"_UMAP_res",round4_config$resolutions[i])));save_pair(plots[[1]]+plots[[2]]+plot_layout(ncol=2,guides="collect"),file.path(fig,paste0("Round4_",lineage,"_UMAP_comparison_0.4_vs_1.2")),14,7)
+for(f in intersect(c("dataset","orig.ident","stage","Type","T_stage","N_stage","M_stage"),names(meta)))save_pair(make_plot(f,FALSE),file.path(fig,paste0("Round4_",lineage,"_UMAP_by_",f)))
+summary<-data.frame(lineage=lineage,round4_n_cells=ncol(object),Harmony_variable="orig.ident",PCA_dims=length(sd),neighbor_dims=ndims,n_clusters_res0.4=sums$n_clusters[sums$resolution==.4],n_clusters_res1.2=sums$n_clusters[sums$resolution==1.2],smallest_cluster_res0.4=sums$min_cluster_n[sums$resolution==.4],smallest_cluster_res1.2=sums$min_cluster_n[sums$resolution==1.2],status="ROUND4_RECLUSTERED_PREANNOTATION");write.csv(summary,file.path(tab,"round4_object_summary.csv"),row.names=FALSE)
+message("END Round4_FINAL ",lineage,"; NO AUTOMATIC ANNOTATION; ONLY 0.4/1.2")
+sink(type="message");sink(type="output");close(con)
