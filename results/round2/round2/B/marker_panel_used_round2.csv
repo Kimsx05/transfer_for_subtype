@@ -1,0 +1,22 @@
+"marker_group","gene","group_order","marker_order","source_md","present"
+"Pan-B","CD79A",1,1,"B_cell_annotation_final_framework.md",TRUE
+"Pan-B","MS4A1",1,2,"B_cell_annotation_final_framework.md",TRUE
+"Pan-B","CD19",1,3,"B_cell_annotation_final_framework.md",TRUE
+"Epithelial contamination","EPCAM",2,4,"B_cell_annotation_final_framework.md",TRUE
+"Epithelial contamination","KRT8",2,5,"B_cell_annotation_final_framework.md",TRUE
+"Epithelial contamination","KRT19",2,6,"B_cell_annotation_final_framework.md",TRUE
+"Naive B","IGHD",3,7,"B_cell_annotation_final_framework.md",TRUE
+"Naive B","TCL1A",3,8,"B_cell_annotation_final_framework.md",TRUE
+"Naive B","FCER2",3,9,"B_cell_annotation_final_framework.md",TRUE
+"Memory B","CD27",4,10,"B_cell_annotation_final_framework.md",TRUE
+"Memory B","TNFRSF13B",4,11,"B_cell_annotation_final_framework.md",TRUE
+"Memory B","AIM2",4,12,"B_cell_annotation_final_framework.md",TRUE
+"GC B","BCL6",5,13,"B_cell_annotation_final_framework.md",TRUE
+"GC B","AICDA",5,14,"B_cell_annotation_final_framework.md",TRUE
+"GC B","RGS13",5,15,"B_cell_annotation_final_framework.md",TRUE
+"IFN-stimulated B","ISG15",6,16,"B_cell_annotation_final_framework.md",TRUE
+"IFN-stimulated B","STAT1",6,17,"B_cell_annotation_final_framework.md",TRUE
+"IFN-stimulated B","MX1",6,18,"B_cell_annotation_final_framework.md",TRUE
+"Cycling B","MKI67",7,19,"B_cell_annotation_final_framework.md",TRUE
+"Cycling B","TOP2A",7,20,"B_cell_annotation_final_framework.md",TRUE
+"Cycling B","UBE2C",7,21,"B_cell_annotation_final_framework.md",TRUE

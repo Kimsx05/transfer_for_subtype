@@ -1,0 +1,52 @@
+"marker_group","gene","group_order","marker_order","source_md","present"
+"Pan-myeloid","LYZ",1,1,"Myeloid_annotation_final_frozen_framework.md",TRUE
+"Pan-myeloid","LST1",1,2,"Myeloid_annotation_final_frozen_framework.md",TRUE
+"Pan-myeloid","TYROBP",1,3,"Myeloid_annotation_final_frozen_framework.md",TRUE
+"Epithelial doublet","EPCAM",2,4,"Myeloid_annotation_final_frozen_framework.md",TRUE
+"Epithelial doublet","KRT8",2,5,"Myeloid_annotation_final_frozen_framework.md",TRUE
+"Epithelial doublet","KRT19",2,6,"Myeloid_annotation_final_frozen_framework.md",TRUE
+"Cycling","MKI67",3,7,"Myeloid_annotation_final_frozen_framework.md",TRUE
+"Cycling","TOP2A",3,8,"Myeloid_annotation_final_frozen_framework.md",TRUE
+"Cycling","UBE2C",3,9,"Myeloid_annotation_final_frozen_framework.md",TRUE
+"Neutrophil","FCGR3B",4,10,"Myeloid_annotation_final_frozen_framework.md",TRUE
+"Neutrophil","CSF3R",4,11,"Myeloid_annotation_final_frozen_framework.md",TRUE
+"Neutrophil","CXCR2",4,12,"Myeloid_annotation_final_frozen_framework.md",TRUE
+"Eosinophil","CLC",5,13,"Myeloid_annotation_final_frozen_framework.md",TRUE
+"Eosinophil","CCR3",5,14,"Myeloid_annotation_final_frozen_framework.md",TRUE
+"Eosinophil","ALOX15",5,15,"Myeloid_annotation_final_frozen_framework.md",TRUE
+"Basophil","CD200R1",6,16,"Myeloid_annotation_final_frozen_framework.md",TRUE
+"Basophil","CLEC12A",6,17,"Myeloid_annotation_final_frozen_framework.md",TRUE
+"Basophil","KLK10",6,18,"Myeloid_annotation_final_frozen_framework.md",TRUE
+"Classical Mono","FCN1",7,19,"Myeloid_annotation_final_frozen_framework.md",TRUE
+"Classical Mono","S100A8",7,20,"Myeloid_annotation_final_frozen_framework.md",TRUE
+"Classical Mono","VCAN",7,21,"Myeloid_annotation_final_frozen_framework.md",TRUE
+"Non-classical Mono","FCGR3A",8,22,"Myeloid_annotation_final_frozen_framework.md",TRUE
+"Non-classical Mono","CDKN1C",8,23,"Myeloid_annotation_final_frozen_framework.md",TRUE
+"Non-classical Mono","LST1",8,24,"Myeloid_annotation_final_frozen_framework.md",TRUE
+"C1QC TAM","C1QC",9,25,"Myeloid_annotation_final_frozen_framework.md",TRUE
+"C1QC TAM","C1QA",9,26,"Myeloid_annotation_final_frozen_framework.md",TRUE
+"C1QC TAM","APOE",9,27,"Myeloid_annotation_final_frozen_framework.md",TRUE
+"SPP1 TAM","SPP1",10,28,"Myeloid_annotation_final_frozen_framework.md",TRUE
+"SPP1 TAM","GPNMB",10,29,"Myeloid_annotation_final_frozen_framework.md",TRUE
+"SPP1 TAM","FN1",10,30,"Myeloid_annotation_final_frozen_framework.md",TRUE
+"ISG TAM","ISG15",11,31,"Myeloid_annotation_final_frozen_framework.md",TRUE
+"ISG TAM","CXCL10",11,32,"Myeloid_annotation_final_frozen_framework.md",TRUE
+"ISG TAM","GBP1",11,33,"Myeloid_annotation_final_frozen_framework.md",TRUE
+"FOLR2/LYVE1 TAM","FOLR2",12,34,"Myeloid_annotation_final_frozen_framework.md",TRUE
+"FOLR2/LYVE1 TAM","LYVE1",12,35,"Myeloid_annotation_final_frozen_framework.md",TRUE
+"FOLR2/LYVE1 TAM","SELENOP",12,36,"Myeloid_annotation_final_frozen_framework.md",TRUE
+"TREM2 auxiliary","TREM2",13,37,"Myeloid_annotation_final_frozen_framework.md",TRUE
+"TREM2 auxiliary","APOC1",13,38,"Myeloid_annotation_final_frozen_framework.md",TRUE
+"TREM2 auxiliary","GPNMB",13,39,"Myeloid_annotation_final_frozen_framework.md",TRUE
+"cDC1","CLEC9A",14,40,"Myeloid_annotation_final_frozen_framework.md",TRUE
+"cDC1","XCR1",14,41,"Myeloid_annotation_final_frozen_framework.md",TRUE
+"cDC1","CADM1",14,42,"Myeloid_annotation_final_frozen_framework.md",TRUE
+"cDC2","CD1C",15,43,"Myeloid_annotation_final_frozen_framework.md",TRUE
+"cDC2","FCER1A",15,44,"Myeloid_annotation_final_frozen_framework.md",TRUE
+"cDC2","CLEC10A",15,45,"Myeloid_annotation_final_frozen_framework.md",TRUE
+"LAMP3 DC","LAMP3",16,46,"Myeloid_annotation_final_frozen_framework.md",TRUE
+"LAMP3 DC","CCR7",16,47,"Myeloid_annotation_final_frozen_framework.md",TRUE
+"LAMP3 DC","FSCN1",16,48,"Myeloid_annotation_final_frozen_framework.md",TRUE
+"pDC","LILRA4",17,49,"Myeloid_annotation_final_frozen_framework.md",TRUE
+"pDC","IL3RA",17,50,"Myeloid_annotation_final_frozen_framework.md",TRUE
+"pDC","GZMB",17,51,"Myeloid_annotation_final_frozen_framework.md",TRUE

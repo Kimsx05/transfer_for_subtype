@@ -1,0 +1,9 @@
+"item","path","file_bytes","cells","clusters","counts_present","data_present","round1_cluster_present","round2_cluster_present","pca_round2_present","harmony_round2_present","umap_round2_present","subtype_v2_present"
+"B","/home/data/t070721/codex_workspace/Bladder Metabolism/subtype/v2/round2/B/B_round2_clustered.qs",246904243,15282,12,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE
+"Endothelial","/home/data/t070721/codex_workspace/Bladder Metabolism/subtype/v2/round2/Endothelial/Endothelial_round2_clustered.qs",369791541,15196,16,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE
+"Fibroblast","/home/data/t070721/codex_workspace/Bladder Metabolism/subtype/v2/round2/Fibroblast/Fibroblast_round2_clustered.qs",592815126,24449,20,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE
+"Myeloid","/home/data/t070721/codex_workspace/Bladder Metabolism/subtype/v2/round2/Myeloid/Myeloid_round2_clustered.qs",701050521,36084,21,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE
+"A","/home/data/t070721/codex_workspace/Bladder Metabolism/subtype/v2/round2/TNK/A_baseline_origident_theta2_lambda1/TNK_round2_A_baseline_origident_theta2_lambda1.qs",1855619259,124746,16,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE
+"B_TNK","/home/data/t070721/codex_workspace/Bladder Metabolism/subtype/v2/round2/TNK/B_origident_theta4_lambda1/TNK_round2_B_origident_theta4_lambda1.qs",1853483927,124746,14,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE
+"C","/home/data/t070721/codex_workspace/Bladder Metabolism/subtype/v2/round2/TNK/C_origident_theta6_lambda0.5/TNK_round2_C_origident_theta6_lambda0.5.qs",1853567732,124746,14,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE
+"D","/home/data/t070721/codex_workspace/Bladder Metabolism/subtype/v2/round2/TNK/D_dataset_theta4_lambda1/TNK_round2_D_dataset_theta4_lambda1.qs",1857701159,124746,29,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE

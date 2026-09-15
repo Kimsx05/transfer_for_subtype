@@ -1,0 +1,2 @@
+"lineage","status","input_cells","excluded_cells","round2_cells","round2_clusters","resolution","n_markers","n_composition_warning_clusters","start_utc","end_utc","runtime_minutes"
+"Myeloid","READY_FOR_MANUAL_ANNOTATION",40393,4309,36084,21,0.8,54418,5,"2026-09-15 02:12:01 UTC","2026-09-15 02:18:10 UTC",6.15491929848989

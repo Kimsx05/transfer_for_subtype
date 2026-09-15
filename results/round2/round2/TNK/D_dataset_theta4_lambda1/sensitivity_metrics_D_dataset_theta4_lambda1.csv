@@ -1,0 +1,2 @@
+"run","harmony_group","theta","lambda","max_iter_harmony","resolution","cells","n_clusters","dataset_neighbor_mixing","specimen_neighbor_mixing","round1_family_neighbor_preservation","round1_cluster_to_round2_NMI","n_specimen_gt50","n_dataset_gt70","n_dataset_gt90"
+"D_dataset_theta4_lambda1","dataset",4,1,20,0.8,124746,29,0.407253333333333,0.53895,0.795367777777778,0.475855010039282,13,13,11

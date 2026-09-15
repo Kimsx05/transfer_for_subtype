@@ -1,0 +1,2 @@
+"lineage","status","input_cells","excluded_cells","round2_cells","round2_clusters","resolution","n_markers","n_composition_warning_clusters","start_utc","end_utc","runtime_minutes"
+"B","READY_FOR_MANUAL_ANNOTATION",16247,965,15282,12,0.6,21291,3,"2026-09-15 01:36:39 UTC","2026-09-15 01:38:38 UTC",1.98234580357869

@@ -1,0 +1,31 @@
+"marker_group","gene","group_order","marker_order","source_md","present"
+"Pan-Endothelial","PECAM1",1,1,"Endothelial_annotation_final_frozen_framework.md",TRUE
+"Pan-Endothelial","VWF",1,2,"Endothelial_annotation_final_frozen_framework.md",TRUE
+"Pan-Endothelial","CDH5",1,3,"Endothelial_annotation_final_frozen_framework.md",TRUE
+"Epithelial doublet","EPCAM",2,4,"Endothelial_annotation_final_frozen_framework.md",TRUE
+"Epithelial doublet","KRT8",2,5,"Endothelial_annotation_final_frozen_framework.md",TRUE
+"Epithelial doublet","KRT19",2,6,"Endothelial_annotation_final_frozen_framework.md",TRUE
+"Cycling","MKI67",3,7,"Endothelial_annotation_final_frozen_framework.md",TRUE
+"Cycling","TOP2A",3,8,"Endothelial_annotation_final_frozen_framework.md",TRUE
+"Cycling","UBE2C",3,9,"Endothelial_annotation_final_frozen_framework.md",TRUE
+"Angiogenic/Tip EC","CXCR4",4,10,"Endothelial_annotation_final_frozen_framework.md",TRUE
+"Angiogenic/Tip EC","KDR",4,11,"Endothelial_annotation_final_frozen_framework.md",TRUE
+"Angiogenic/Tip EC","ESM1",4,12,"Endothelial_annotation_final_frozen_framework.md",TRUE
+"Venous/Inflammatory EC","ACKR1",5,13,"Endothelial_annotation_final_frozen_framework.md",TRUE
+"Venous/Inflammatory EC","SELE",5,14,"Endothelial_annotation_final_frozen_framework.md",TRUE
+"Venous/Inflammatory EC","VCAM1",5,15,"Endothelial_annotation_final_frozen_framework.md",TRUE
+"Capillary EC","CA4",6,16,"Endothelial_annotation_final_frozen_framework.md",TRUE
+"Capillary EC","CD36",6,17,"Endothelial_annotation_final_frozen_framework.md",TRUE
+"Capillary EC","RGCC",6,18,"Endothelial_annotation_final_frozen_framework.md",TRUE
+"Arterial EC","GJA5",7,19,"Endothelial_annotation_final_frozen_framework.md",TRUE
+"Arterial EC","EFNB2",7,20,"Endothelial_annotation_final_frozen_framework.md",TRUE
+"Arterial EC","HEY1",7,21,"Endothelial_annotation_final_frozen_framework.md",TRUE
+"Lymphatic EC","PROX1",8,22,"Endothelial_annotation_final_frozen_framework.md",TRUE
+"Lymphatic EC","LYVE1",8,23,"Endothelial_annotation_final_frozen_framework.md",TRUE
+"Lymphatic EC","CCL21",8,24,"Endothelial_annotation_final_frozen_framework.md",TRUE
+"MHC-II EC","HLA-DRA",9,25,"Endothelial_annotation_final_frozen_framework.md",TRUE
+"MHC-II EC","HLA-DPA1",9,26,"Endothelial_annotation_final_frozen_framework.md",TRUE
+"MHC-II EC","CD74",9,27,"Endothelial_annotation_final_frozen_framework.md",TRUE
+"Hypoxia/metallothionein","MT1X",10,28,"Endothelial_annotation_final_frozen_framework.md",TRUE
+"Hypoxia/metallothionein","MT1E",10,29,"Endothelial_annotation_final_frozen_framework.md",TRUE
+"Hypoxia/metallothionein","MT2A",10,30,"Endothelial_annotation_final_frozen_framework.md",TRUE

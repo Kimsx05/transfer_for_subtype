@@ -1,0 +1,37 @@
+"marker_group","gene","group_order","marker_order","source_md","present"
+"Pan-fibroblast","COL1A1",1,1,"fibro_CAF_annotation_final_plan.md",TRUE
+"Pan-fibroblast","DCN",1,2,"fibro_CAF_annotation_final_plan.md",TRUE
+"Pan-fibroblast","LUM",1,3,"fibro_CAF_annotation_final_plan.md",TRUE
+"Epithelial contamination","EPCAM",2,4,"fibro_CAF_annotation_final_plan.md",TRUE
+"Epithelial contamination","KRT8",2,5,"fibro_CAF_annotation_final_plan.md",TRUE
+"Epithelial contamination","KRT19",2,6,"fibro_CAF_annotation_final_plan.md",TRUE
+"Cycling","MKI67",3,7,"fibro_CAF_annotation_final_plan.md",TRUE
+"Cycling","TOP2A",3,8,"fibro_CAF_annotation_final_plan.md",TRUE
+"Cycling","UBE2C",3,9,"fibro_CAF_annotation_final_plan.md",TRUE
+"Matrix_CAF","COL1A1",4,10,"fibro_CAF_annotation_final_plan.md",TRUE
+"Matrix_CAF","MMP11",4,11,"fibro_CAF_annotation_final_plan.md",TRUE
+"Matrix_CAF","POSTN",4,12,"fibro_CAF_annotation_final_plan.md",TRUE
+"iCAF","PLA2G2A",5,13,"fibro_CAF_annotation_final_plan.md",TRUE
+"iCAF","CFD",5,14,"fibro_CAF_annotation_final_plan.md",TRUE
+"iCAF","CXCL12",5,15,"fibro_CAF_annotation_final_plan.md",TRUE
+"vCAF","MCAM",6,16,"fibro_CAF_annotation_final_plan.md",TRUE
+"vCAF","NOTCH3",6,17,"fibro_CAF_annotation_final_plan.md",TRUE
+"vCAF","COL18A1",6,18,"fibro_CAF_annotation_final_plan.md",TRUE
+"Pericyte","RGS5",7,19,"fibro_CAF_annotation_final_plan.md",TRUE
+"Pericyte","CSPG4",7,20,"fibro_CAF_annotation_final_plan.md",TRUE
+"Pericyte","PDGFRB",7,21,"fibro_CAF_annotation_final_plan.md",TRUE
+"apCAF","CD74",8,22,"fibro_CAF_annotation_final_plan.md",TRUE
+"apCAF","HLA-DRA",8,23,"fibro_CAF_annotation_final_plan.md",TRUE
+"apCAF","CIITA",8,24,"fibro_CAF_annotation_final_plan.md",TRUE
+"tCAF","MME",9,25,"fibro_CAF_annotation_final_plan.md",TRUE
+"tCAF","NDRG1",9,26,"fibro_CAF_annotation_final_plan.md",TRUE
+"tCAF","ENO1",9,27,"fibro_CAF_annotation_final_plan.md",TRUE
+"ifnCAF","IDO1",10,28,"fibro_CAF_annotation_final_plan.md",TRUE
+"ifnCAF","CXCL10",10,29,"fibro_CAF_annotation_final_plan.md",TRUE
+"ifnCAF","IFIT1",10,30,"fibro_CAF_annotation_final_plan.md",TRUE
+"rCAF","CCL19",11,31,"fibro_CAF_annotation_final_plan.md",TRUE
+"rCAF","CCL21",11,32,"fibro_CAF_annotation_final_plan.md",TRUE
+"rCAF","COL14A1",11,33,"fibro_CAF_annotation_final_plan.md",TRUE
+"MyoFibro / SMC","ACTA2",12,34,"Fibroblast_round2_reclustering_plan_res1.0.md",TRUE
+"MyoFibro / SMC","TAGLN",12,35,"Fibroblast_round2_reclustering_plan_res1.0.md",TRUE
+"MyoFibro / SMC","MYH11",12,36,"Fibroblast_round2_reclustering_plan_res1.0.md",TRUE

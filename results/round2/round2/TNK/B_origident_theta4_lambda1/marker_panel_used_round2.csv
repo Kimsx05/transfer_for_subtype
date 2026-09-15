@@ -1,0 +1,61 @@
+"marker_group","gene","group_order","marker_order","source_md","present"
+"Pan-T","CD3D",1,1,"T_NK_annotation_joint_final_framework.md",TRUE
+"Pan-T","CD3E",1,2,"T_NK_annotation_joint_final_framework.md",TRUE
+"Pan-T","TRAC",1,3,"T_NK_annotation_joint_final_framework.md",TRUE
+"Pan-NK","NCR1",2,4,"T_NK_annotation_joint_final_framework.md",TRUE
+"Pan-NK","KLRD1",2,5,"T_NK_annotation_joint_final_framework.md",TRUE
+"Pan-NK","NKG7",2,6,"T_NK_annotation_joint_final_framework.md",TRUE
+"Epithelial doublet","EPCAM",3,7,"T_NK_annotation_joint_final_framework.md",TRUE
+"Epithelial doublet","KRT8",3,8,"T_NK_annotation_joint_final_framework.md",TRUE
+"Epithelial doublet","KRT19",3,9,"T_NK_annotation_joint_final_framework.md",TRUE
+"CD4/CD8 lineage","CD4",4,10,"T_NK_annotation_joint_final_framework.md",TRUE
+"CD4/CD8 lineage","CD8A",4,11,"T_NK_annotation_joint_final_framework.md",TRUE
+"CD4/CD8 lineage","CD8B",4,12,"T_NK_annotation_joint_final_framework.md",TRUE
+"Cycling","MKI67",5,13,"T_NK_annotation_joint_final_framework.md",TRUE
+"Cycling","TOP2A",5,14,"T_NK_annotation_joint_final_framework.md",TRUE
+"Cycling","UBE2C",5,15,"T_NK_annotation_joint_final_framework.md",TRUE
+"CD4 Naive/Memory","CCR7",6,16,"T_NK_annotation_joint_final_framework.md",TRUE
+"CD4 Naive/Memory","TCF7",6,17,"T_NK_annotation_joint_final_framework.md",TRUE
+"CD4 Naive/Memory","LEF1",6,18,"T_NK_annotation_joint_final_framework.md",TRUE
+"CD4 Helper/Conventional","IL7R",7,19,"T_NK_annotation_joint_final_framework.md",TRUE
+"CD4 Helper/Conventional","LTB",7,20,"T_NK_annotation_joint_final_framework.md",TRUE
+"CD4 Helper/Conventional","CD40LG",7,21,"T_NK_annotation_joint_final_framework.md",TRUE
+"Treg","FOXP3",8,22,"T_NK_annotation_joint_final_framework.md",TRUE
+"Treg","IL2RA",8,23,"T_NK_annotation_joint_final_framework.md",TRUE
+"Treg","CTLA4",8,24,"T_NK_annotation_joint_final_framework.md",TRUE
+"CD4 Cytotoxic","GZMB",9,25,"T_NK_annotation_joint_final_framework.md",TRUE
+"CD4 Cytotoxic","PRF1",9,26,"T_NK_annotation_joint_final_framework.md",TRUE
+"CD4 Cytotoxic","KLRG1",9,27,"T_NK_annotation_joint_final_framework.md",TRUE
+"Tfh/CXCL13-like","CXCL13",10,28,"T_NK_annotation_joint_final_framework.md",TRUE
+"Tfh/CXCL13-like","CXCR5",10,29,"T_NK_annotation_joint_final_framework.md",TRUE
+"Tfh/CXCL13-like","ICOS",10,30,"T_NK_annotation_joint_final_framework.md",TRUE
+"CD8 Naive/Memory","TCF7",11,31,"T_NK_annotation_joint_final_framework.md",TRUE
+"CD8 Naive/Memory","KLF2",11,32,"T_NK_annotation_joint_final_framework.md",TRUE
+"CD8 Naive/Memory","SELL",11,33,"T_NK_annotation_joint_final_framework.md",TRUE
+"CD8 GZMK/Effector-memory","GZMK",12,34,"T_NK_annotation_joint_final_framework.md",TRUE
+"CD8 GZMK/Effector-memory","CCL5",12,35,"T_NK_annotation_joint_final_framework.md",TRUE
+"CD8 GZMK/Effector-memory","EOMES",12,36,"T_NK_annotation_joint_final_framework.md",TRUE
+"CD8 Cytotoxic","FGFBP2",13,37,"T_NK_annotation_joint_final_framework.md",TRUE
+"CD8 Cytotoxic","GZMB",13,38,"T_NK_annotation_joint_final_framework.md",TRUE
+"CD8 Cytotoxic","CX3CR1",13,39,"T_NK_annotation_joint_final_framework.md",TRUE
+"CD8 Exhausted","TOX",14,40,"T_NK_annotation_joint_final_framework.md",TRUE
+"CD8 Exhausted","ENTPD1",14,41,"T_NK_annotation_joint_final_framework.md",TRUE
+"CD8 Exhausted","LAG3",14,42,"T_NK_annotation_joint_final_framework.md",TRUE
+"gamma-delta T","TRDC",15,43,"T_NK_annotation_joint_final_framework.md",TRUE
+"gamma-delta T","TRGC1",15,44,"T_NK_annotation_joint_final_framework.md",TRUE
+"gamma-delta T","TRGC2",15,45,"T_NK_annotation_joint_final_framework.md",TRUE
+"CD56bright/XCL1-like NK","XCL1",16,46,"T_NK_annotation_joint_final_framework.md",TRUE
+"CD56bright/XCL1-like NK","XCL2",16,47,"T_NK_annotation_joint_final_framework.md",TRUE
+"CD56bright/XCL1-like NK","NCAM1",16,48,"T_NK_annotation_joint_final_framework.md",TRUE
+"CD56dim/Cytotoxic NK","FCGR3A",17,49,"T_NK_annotation_joint_final_framework.md",TRUE
+"CD56dim/Cytotoxic NK","FGFBP2",17,50,"T_NK_annotation_joint_final_framework.md",TRUE
+"CD56dim/Cytotoxic NK","CX3CR1",17,51,"T_NK_annotation_joint_final_framework.md",TRUE
+"Adaptive NK","KLRC2",18,52,"T_NK_annotation_joint_final_framework.md",TRUE
+"Adaptive NK","GZMH",18,53,"T_NK_annotation_joint_final_framework.md",TRUE
+"Adaptive NK","ZBTB38",18,54,"T_NK_annotation_joint_final_framework.md",TRUE
+"Stressed/Dysfunctional NK","ATF3",19,55,"T_NK_annotation_joint_final_framework.md",TRUE
+"Stressed/Dysfunctional NK","DUSP1",19,56,"T_NK_annotation_joint_final_framework.md",TRUE
+"Stressed/Dysfunctional NK","GADD45B",19,57,"T_NK_annotation_joint_final_framework.md",TRUE
+"NKG2A/TR-like auxiliary","KLRC1",20,58,"T_NK_annotation_joint_final_framework.md",TRUE
+"NKG2A/TR-like auxiliary","ZNF683",20,59,"T_NK_annotation_joint_final_framework.md",TRUE
+"NKG2A/TR-like auxiliary","CXCR6",20,60,"T_NK_annotation_joint_final_framework.md",TRUE

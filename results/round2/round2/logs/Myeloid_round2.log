@@ -1,0 +1,167 @@
+START Myeloid
+Finding variable features for layer counts
+Calculating gene variances
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Calculating feature variances of standardized and clipped values
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Centering and scaling data matrix
+  |                                                                              |                                                                      |   0%  |                                                                              |=======================                                               |  33%  |                                                                              |===============================================                       |  67%  |                                                                              |======================================================================| 100%
+PC_ 1 
+Positive:  C1QB, C1QA, RGS1, FMNL2, LGMN, HLA-DQA1, APOE, C1QC, FRMD4A, CTSC 
+	   KCNMA1, APOC1, GPNMB, A2M, DAB2, CBLB, HSPB1, MRC1, EPB41L2, FCGR3A 
+	   MERTK, CTSB, PLD3, SPRED1, BNC2, NME2, NRP1, TUBA1B, FCHSD2, IFI30 
+Negative:  S100A8, S100A9, S100A12, IL1B, EREG, CXCL8, VCAN, LUCAT1, MCTP2, TNFAIP6 
+	   TIMP1, NLRP3, MAP4K4, PTGS2, CXCL2, IL1RN, SERPINB2, PROK2, MIR3945HG, ENSG00000304732 
+	   APOBEC3A, PLCB1, CXCL3, CCL20, PTX3, GK5, WARS1, IL1A, SLC39A8, THBS1 
+PC_ 2 
+Positive:  H3F3B, H3F3A, ATP6V0C, RABGEF1, ADAMTSL4-AS1, H2AFY, CD68, IFI30, NME2, LINC01578 
+	   SMIM25, AC022217.3, AC020916.1, CTSD, CD99, AL078604.4, AC007384.1, AP003086.1, GPNMB, MARCH1 
+	   H2AFZ, FAM49A, SLC25A6, CD163, CCL3L1, FAM102B, NUPR1, FCGR3A, EEF1G, AZIN1-AS1 
+Negative:  CCR7, LAMP3, AUTS2, ENSG00000303924, H2AZ1, ENOX1, DAPP1, WFDC21P.1, MCOLN2, GPR157 
+	   SLCO5A1, IRF4, FLT3, ENSG00000298041, NAPSB.1, CST7, RFTN1, ENSG00000267476, ADAM19, CCL19 
+	   TALAM1, MALT1, ENSG00000303405, CCL22, CD200, PPA1, NAMA, PPP1R16B, FSCN1, BIRC3 
+PC_ 3 
+Positive:  H3F3B, H3F3A, ADAMTSL4-AS1, RABGEF1, CSF2RA, SLCO5A1, FAM49A, ENOX1, FLT3, LAMP3 
+	   GPC5, AC022217.3, LINC01578, ATP6V0C, H2AFZ, CCL19, AC016831.7, CD200, AC008105.3, SMIM25 
+	   LY75, AP003086.1, KIF2A, AC020916.1, IDO1, LIMCH1, ADAM12, BIRC3, ZEB1, AC007384.1 
+Negative:  C1QC, C1QA, CTSB, C1QB, CTSD, MT-ND4L, CTSL, APOE, PLD3, RNASE1 
+	   TREM2, A2M, LGMN, APOC1, PLTP, FOLR2, FRMD4A, DAB2, GPNMB, NRP1 
+	   HLA-DRB6.1, MT-ATP8, SELENOP, SPRED1, BNC2, ANKH, F13A1, C3, FMNL2, CCL3L3 
+PC_ 4 
+Positive:  C1QC, APOC1, C1QB, IFI27, C1QA, APOE, SLC40A1, ADIRF, IGLC2, CCL19 
+	   A2M, IGKC, IGHA1, TREM2, IGHG3, OLFML3, IL32, ENOX1, ENSG00000303924, IGHG4 
+	   FCGR3B, GPC5, FRMD4A, RNASE1, LIMCH1, SLC22A23, EBI3, SLCO5A1, CD200, PDCD1LG2 
+Negative:  HSPH1, HSPD1, BAG3, DNAJA4, EREG, EIF2AK3, ELOVL5, VCAN, SESTD1, ZFAND2A 
+	   DENND4A, IER5, THBS1, GADD45B, NLRP3, AREG, CLIC4, JUN, ANKRD28, IL1B 
+	   ZNF331, SSBP2, PLIN2, RAPGEF2, ACSL3, ASTL, TEX14, HSPA6, PAPSS2, PHLPP1 
+PC_ 5 
+Positive:  GZMB, C12orf75, AFF3, LTB, PTPRS, SCT, LINC01478, NIBAN3, LILRA4, ENSG00000225885 
+	   NAPSB.1, RHEX, CLIC3, POLB, CLEC4C, SMPD3, PLXNA4, ALOX5AP, PHEX, CARD11 
+	   P2RY14, P2RY6, HDAC9, FCGR3B, COL24A1, PTGDS, GNG7, ENSG00000293455, ZFAT, JCHAIN 
+Negative:  CXCL3, EREG, CXCL2, CCL19, CTSL, IL7R, NRP2, BIRC3, ADAM12, ENOX1 
+	   SLCO5A1, SLC16A10, THBS1, LAMP3, MMP19, SLC22A23, CD200, PSD3, GPC5, IL1B 
+	   CCR7, TRAF1, LIMCH1, TIMP1, ARHGAP10, CCL20, MAMLD1, KMO, SDC2, SLC39A8 
+Warning message:
+Key ‘PC_’ taken, using ‘pcaround2_’ instead 
+Transposing data matrix
+Using automatic lambda estimation
+Thetas: 2
+Initializing state using k-means centroids initialization
+Initializing centroids
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 1/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 2/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 3/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 4/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 5/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 6/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony converged after 6 iterations
+Computing nearest neighbor graph
+Computing SNN
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 36084
+Number of edges: 1436077
+
+Running Louvain algorithm...
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Maximum modularity in 10 random starts: 0.8754
+Number of communities: 21
+Elapsed time: 9 seconds
+Warning: The default method for RunUMAP has changed from calling Python UMAP via reticulate to the R-native UWOT using the cosine metric
+To use Python UMAP via reticulate, set umap.method to 'umap-learn' and metric to 'correlation'
+This message will be shown once per session
+02:13:36 UMAP embedding parameters a = 0.9922 b = 1.112
+02:13:36 Read 36084 rows and found 30 numeric columns
+02:13:36 Using Annoy for neighbor search, n_neighbors = 30
+02:13:36 Building Annoy index with metric = cosine, n_trees = 50
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+02:13:40 Writing NN index file to temp file /codex-home/.codex/visualizations/2026/09/14/01a09fca-463d-7060-b488-25d6a0806d15/round1_r_tmp/RtmpF3FUvo/file1885c530b515a
+02:13:40 Searching Annoy index using 1 thread, search_k = 3000
+02:13:54 Annoy recall = 100%
+02:13:55 Commencing smooth kNN distance calibration using 1 thread with target n_neighbors = 30
+02:13:56 Initializing from normalized Laplacian + noise (using RSpectra)
+02:13:57 Commencing optimization for 200 epochs, with 1639538 positive edges
+02:13:57 Using rng type: pcg
+Using method 'umap'
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+02:14:12 Optimization finished
+Calculating cluster 0
+Calculating cluster 1
+Calculating cluster 2
+Calculating cluster 3
+Calculating cluster 4
+Calculating cluster 5
+Calculating cluster 6
+Calculating cluster 7
+Calculating cluster 8
+Calculating cluster 9
+Calculating cluster 10
+Calculating cluster 11
+Calculating cluster 12
+Calculating cluster 13
+Calculating cluster 14
+Calculating cluster 15
+Calculating cluster 16
+Calculating cluster 17
+Calculating cluster 18
+Calculating cluster 19
+Calculating cluster 20
+Warning messages:
+1: In to_lodes_form(data = data, axes = axis_ind, discern = params$discern) :
+  Some strata appear at multiple axes.
+2: In to_lodes_form(data = data, axes = axis_ind, discern = params$discern) :
+  Some strata appear at multiple axes.
+3: In to_lodes_form(data = data, axes = axis_ind, discern = params$discern) :
+  Some strata appear at multiple axes.
+4: In to_lodes_form(data = data, axes = axis_ind, discern = params$discern) :
+  Some strata appear at multiple axes.
+DONE Myeloid clusters=21

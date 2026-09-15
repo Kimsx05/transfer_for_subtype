@@ -1,0 +1,2 @@
+"lineage","status","input_cells","excluded_cells","round2_cells","round2_clusters","resolution","n_markers","n_composition_warning_clusters","start_utc","end_utc","runtime_minutes"
+"Fibroblast","READY_FOR_MANUAL_ANNOTATION",27615,3166,24449,20,1,48368,8,"2026-09-15 01:56:31 UTC","2026-09-15 02:01:36 UTC",5.08305290540059

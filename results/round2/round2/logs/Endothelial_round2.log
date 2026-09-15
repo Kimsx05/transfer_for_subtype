@@ -1,0 +1,155 @@
+START Endothelial
+Finding variable features for layer counts
+Calculating gene variances
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Calculating feature variances of standardized and clipped values
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Centering and scaling data matrix
+  |                                                                              |                                                                      |   0%  |                                                                              |=======================                                               |  33%  |                                                                              |===============================================                       |  67%  |                                                                              |======================================================================| 100%
+PC_ 1 
+Positive:  ACKR1, ZNF385D, LINC-PINT, ICAM1, SOD2, NNMT, SELE, CLU, ENSG00000286533, PALM2AKAP2 
+	   HLA-DPB1, MCTP1, CEBPD, HLA-DRB6.1, NPC2, IER3, HLA-DQA2, IL6, MARCHF3, IL33 
+	   ADIRF, SELP, CSF3, NCOA7, PHLDA1, C7, MT2A, ELOVL7, SAMD4A, CDKN1A 
+Negative:  H3F3A, H3F3B, MIR4435-2HG, ESM1, PDGFD, HECW2, CD99, SLC9A3R2, KIAA0355, PALM2-AKAP2 
+	   SNTB1, LAMA4, UNC5B, CA2, ITGA1, KCNQ1, AC002070.1, GRB10, PTPRG, AC119674.1 
+	   KDR, IL3RA, CAST, IQCJ-SCHIP1, FAM155A, CYTOR, H2AFZ, ATP5MD, NME2, MARCH6 
+PC_ 2 
+Positive:  PALM2-AKAP2, H3F3B, CNKSR3, KIAA0355, FAM155A, H3F3A, NDRG1, IQCJ-SCHIP1, AC020916.1, MARCH3 
+	   MARCH6, FAM214A, NCOA7, RALGAPA2, MARCH7, LINC01578, AC007319.1, HIVEP2, IL3RA, SOD2 
+	   FAM172A, GRASP, ADAMTSL4-AS1, ADAMTS9, AL139807.1, AC119674.1, CAST, KIAA1109, ARHGAP26, CD99 
+Negative:  NHERF2, ENSG00000229337, ENSG00000229308, IGKC, MT-TE, APCDD1, ENSG00000248636, IGLC2, RPS4Y1, RPL29P11 
+	   SOX18, IGFBP3, ACE, RGCC, IGHA1, ANGPTL2, IGHG3, MT-TV, ENSG00000280878, IGHG4 
+	   PTP4A3, HAPLN1, SCIN, PDGFDDN, IGHGP, LGALS1, S100A4, NHS, HTR1F, ENSG00000250863 
+PC_ 3 
+Positive:  ACKR1, TLL1, NCOA7, SELE, ZNF385D, MMRN1, CCL14, SELP, LINC02147, ROBO1 
+	   IL1R1, C7, EPB41L3, NR2F2, SEMA3A, HLA-DQA2, CCL21, TFF3, CCL23, ADIRF 
+	   MIR99AHG, RAB3C, HDAC9, NR2F2-AS1, FLRT2, SAMD5, FAM110B, VCAN, AKAP12, COLEC12 
+Negative:  FBLN5, TSPAN2, SEMA3G, NKAIN2, SULF1, ARL15, GJA5, HEY1, SRGN, DEPP1 
+	   PLPP1, LINC01695, KCTD12, PRDM16, GUCY1A1, PCSK5, GJA4, IGF2, SRP14, SYT1 
+	   ENSG00000298578, EFNB2, LTBP4, ABI3BP, ENSG00000289355, FBLN2, NHERF2, CP, SLC45A4, SPECC1 
+PC_ 4 
+Positive:  FLT1, ROBO1, CACNA1C, EDIL3, MYO10, EXT1, RGCC, IVNS1ABP, JAM3, AQP1 
+	   RAPGEF1, ADAMTS9, GRB10, PTPRG, KIAA1217, KCNQ1, RASGRF2, HLA-DRB6.1, CAMK1D, SLCO2A1 
+	   ANKRD28, SELE, XIST, ENSG00000288765, ITGA8, SNTB1, LBH, LITAF, DACH1, ESM1 
+Negative:  CCL21, RELN, TFF3, PDPN, COLEC12, EFEMP1, EFNA5, MRC1, TBX1, SEMA3A 
+	   PKHD1L1, SEMA3D, NR2F1, STON2, MPP7, NRXN3, DOCK5, PARD6G, CD36, PRKG1 
+	   FABP4, IGF1, SCN3A, TC2N, NRG3, LYVE1, ENSG00000223786, TFPI, MMRN1, PCLO 
+PC_ 5 
+Positive:  XIST, IGHG4, RELN, HSPH1, PDPN, CCL21, ZFAND2A, HSPA6, ATOSA, PTPRE 
+	   COLEC12, ABHD3, DNAJA4, EXT1, SEMA3A, HSPD1, LYVE1, EFEMP1, ZFPM2, KLHL29 
+	   EDIL3, PROX1, NHSL1, NFKB1, MCU, TFF3, RHOJ, SERPINE1, LGALS1, MMRN1 
+Negative:  HLA-DQA1, SOCS3, RPS4Y1, ZFP36, HLA-DPB1, MX1, CCL14, TXNIP, CLU, EEF1G 
+	   NME2, PFDN5, H3F3A, H3F3B, CDKN1A, IL6, IFI44L, LINC00910, LMCD1, SLC9A3R2 
+	   ADIRF, ATP5MD, KLF4, SLC25A6, CD99, C9orf16, H2AFZ, PLAT, SPRY1, FOS 
+Warning message:
+Key ‘PC_’ taken, using ‘pcaround2_’ instead 
+Transposing data matrix
+Using automatic lambda estimation
+Thetas: 2
+Initializing state using k-means centroids initialization
+Initializing centroids
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 1/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 2/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 3/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 4/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony 5/10
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Harmony converged after 5 iterations
+Computing nearest neighbor graph
+Computing SNN
+Modularity Optimizer version 1.3.0 by Ludo Waltman and Nees Jan van Eck
+
+Number of nodes: 15196
+Number of edges: 687368
+
+Running Louvain algorithm...
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Maximum modularity in 10 random starts: 0.8815
+Number of communities: 16
+Elapsed time: 2 seconds
+Warning: The default method for RunUMAP has changed from calling Python UMAP via reticulate to the R-native UWOT using the cosine metric
+To use Python UMAP via reticulate, set umap.method to 'umap-learn' and metric to 'correlation'
+This message will be shown once per session
+01:53:59 UMAP embedding parameters a = 0.9922 b = 1.112
+01:53:59 Read 15196 rows and found 30 numeric columns
+01:53:59 Using Annoy for neighbor search, n_neighbors = 30
+01:53:59 Building Annoy index with metric = cosine, n_trees = 50
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+01:54:01 Writing NN index file to temp file /codex-home/.codex/visualizations/2026/09/14/01a09fca-463d-7060-b488-25d6a0806d15/round1_r_tmp/RtmpsO7EM7/file18714558b1420
+01:54:01 Searching Annoy index using 1 thread, search_k = 3000
+01:54:06 Annoy recall = 100%
+01:54:06 Commencing smooth kNN distance calibration using 1 thread with target n_neighbors = 30
+01:54:07 Initializing from normalized Laplacian + noise (using RSpectra)
+01:54:08 Commencing optimization for 200 epochs, with 667780 positive edges
+01:54:08 Using rng type: pcg
+Using method 'umap'
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+01:54:14 Optimization finished
+Calculating cluster 0
+Calculating cluster 1
+Calculating cluster 2
+Calculating cluster 3
+Calculating cluster 4
+Calculating cluster 5
+Calculating cluster 6
+Calculating cluster 7
+Calculating cluster 8
+Calculating cluster 9
+Calculating cluster 10
+Calculating cluster 11
+Calculating cluster 12
+Calculating cluster 13
+Calculating cluster 14
+Calculating cluster 15
+Warning messages:
+1: In to_lodes_form(data = data, axes = axis_ind, discern = params$discern) :
+  Some strata appear at multiple axes.
+2: In to_lodes_form(data = data, axes = axis_ind, discern = params$discern) :
+  Some strata appear at multiple axes.
+3: In to_lodes_form(data = data, axes = axis_ind, discern = params$discern) :
+  Some strata appear at multiple axes.
+4: In to_lodes_form(data = data, axes = axis_ind, discern = params$discern) :
+  Some strata appear at multiple axes.
+DONE Endothelial clusters=16
